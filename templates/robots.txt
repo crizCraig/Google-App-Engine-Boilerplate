@@ -1,0 +1,7 @@
+User-agent: *
+{% if allow %}
+User-agent: *
+
+{% else %}
+Disallow: /
+{% endif %}

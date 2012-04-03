@@ -1,0 +1,5 @@
+cron:
+#- description: flush and reinit memcache
+#  url: /initc
+#  schedule: every 20 minutes
+#  timezone: Asia/Kolkata

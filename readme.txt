@@ -23,4 +23,3 @@ Features of this boilerplate:
  - dos.yaml for blacklisting IP's
 - Proven folder structure for organizing large apps
  - templates/subtemplates for jinja2 {% include templates/subtemplates/name.html %}
-- Suggests modular app structure in app.yaml with hello_world.py so that not all imports are run in other parts of app.

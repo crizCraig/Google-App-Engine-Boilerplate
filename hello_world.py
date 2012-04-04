@@ -9,10 +9,6 @@ class HomeHandler(BaseHandler):
       'hello_world': 'Hello World'
     })
 
-class RevertPostHandler(BaseHandler):
-  def post(self):
-    id = int(self.request.get('version_id'))
-
 class RobotsTextHandler(BaseHandler):
   def get(self):
     allow = os.environ['HTTP_HOST'] == 'hello_world.appspot.com' # TODO: Change this after copying boilerplate

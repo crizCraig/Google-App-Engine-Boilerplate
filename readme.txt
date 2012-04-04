@@ -21,5 +21,7 @@ Features of this boilerplate:
 - Blank yaml configs with commented examples
  - queue.yaml for configuring task queue
  - dos.yaml for blacklisting IP's
+ - backends.yaml
+ - cron.yaml
 - Proven folder structure for organizing large apps
  - templates/subtemplates for jinja2 {% include templates/subtemplates/name.html %}

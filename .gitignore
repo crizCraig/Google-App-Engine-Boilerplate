@@ -3,3 +3,4 @@
 *.pyc
 .coverage
 .egg-info
+.idea
